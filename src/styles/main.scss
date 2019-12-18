@@ -1,0 +1,11 @@
+$bg: lightgray;
+$image: 65%;
+
+body {
+  background: $bg;
+}
+
+img {
+  width: $image;
+  height: $image;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mywebauthndemo",
+  "version": "1.0.0",
+  "description": "An application that uses the WebAuthN API to authenticate users.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "Rita Law",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express-session": "^1.17.0",
+    "nunjucks": "^3.2.0",
+    "uuid": "^3.3.3",
+    "webauthn": "^0.2.0"
+  }
+}
